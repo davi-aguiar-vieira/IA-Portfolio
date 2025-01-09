@@ -1,0 +1,1769 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+    
+    
+      
+        <title>IA</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#representacao-atomica-vs-representacao-fatorada" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="IA" class="md-header__button md-logo" aria-label="IA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="IA" class="md-nav__button md-logo" aria-label="IA" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    IA
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#representacao-atomica-vs-representacao-fatorada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representação Atômica vs. Representação Fatorada
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Representação Atômica vs. Representação Fatorada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detalhamento-das-representacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detalhamento das Representações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definindo-problemas-de-satisfacao-de-condicoes-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definindo Problemas de Satisfação de Condições (CSP)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Definindo Problemas de Satisfação de Condições (CSP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#componentes-de-um-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Componentes de um CSP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionamento-e-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionamento e Solução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#por-que-csps-sao-poderosos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Por que CSPs são Poderosos?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#algoritmo-de-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algoritmo de CSP
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Algoritmo de CSP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipos-de-condicoes-em-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipos de Condições em CSPs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipos de Condições em CSPs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classificacao-dos-tipos-de-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classificação dos Tipos de Condições
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classificação dos Tipos de Condições">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-condicao-unitaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Condição Unitária
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-condicao-binaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Condição Binária
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-condicao-ternaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Condição Ternária
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-condicao-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Condição Global
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformacao-de-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transformação de Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#condicoes-de-preferencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Condições de Preferência
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Condições de Preferência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-pratico-agendamento-universitario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo Prático: Agendamento Universitário
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#propagacao-de-condicoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propagação de Condições
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consistencia-em-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência em CSPs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consistência em CSPs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência de Nós
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-e-consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que é Consistência de Nós?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-garantir-a-consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como Garantir a Consistência de Nós?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vantagens-da-consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vantagens da Consistência de Nós
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-consistencia-de-nos-alocacao-de-tarefas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Consistência de Nós: Alocação de Tarefas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplo de Consistência de Nós: Alocação de Tarefas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#garantindo-consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Garantindo Consistência de Nós
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#novo-dominio-apos-consistencia-de-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Novo Domínio Após Consistência de Nós:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codigo-em-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Código em Python
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saida" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saída:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpretação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-de-arco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência de Arco
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-e-consistencia-de-arco" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que é Consistência de Arco?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-consistencia-de-arco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Consistência de Arco
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplo de Consistência de Arco">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problema:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-de-arco-no-exemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência de Arco no Exemplo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado-da-consistencia-de-arco" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultado da Consistência de Arco
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao-do-algoritmo-ac-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação do Algoritmo AC-3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-em-codigo-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo em Código Python
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplo em Código Python">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saida_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saída:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-de-trajeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência de Trajeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-que-e-consistencia-de-trajeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que é Consistência de Trajeto?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alocacao-de-projetos-a-funcionarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alocação de Projetos a Funcionários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alocação de Projetos a Funcionários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variáveis:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacao-da-consistencia-de-trajeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicação da Consistência de Trajeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-k-em-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência k em CSPs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicao-formal-da-consistencia-k" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definição Formal da Consistência k
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-consistencia-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Consistência 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplo de Consistência 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicao-das-variaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definição das Variáveis:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restricoes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Restrições:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência 3:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-fortemente-k-consistente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência Fortemente k-consistente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consistência Fortemente k-consistente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resumo-do-tempo-de-execucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo do Tempo de Execução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consistencia-global-em-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consistência Global em CSPs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#algoritmo-de-consistencia-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algoritmo de Consistência Global
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemplo-de-condicao-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de Condição Global:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemplo de Condição Global:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenario_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenário:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#condicional-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Condicional Global:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dominios-iniciais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domínios Iniciais:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processo-de-consistencia-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo de Consistência Global:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resultado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resultado:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Home</h1>
+
+<h2 id="representacao-atomica-vs-representacao-fatorada">Representação Atômica vs. Representação Fatorada</h2>
+<h4 id="detalhamento-das-representacoes"><strong>Detalhamento das Representações</strong></h4>
+<ol>
+<li><strong>Representação Atômica</strong>:</li>
+<li>Cada estado é tratado como uma entidade indivisível, sem nenhuma estrutura interna.</li>
+<li>Útil quando os estados podem ser enumerados diretamente e são relativamente simples.</li>
+<li>Os algoritmos que lidam com estados atômicos exploram os estados como um todo, sem conhecimento sobre possíveis subcomponentes ou relações internas.</li>
+</ol>
+<p><strong>Exemplo de uso</strong>:<br />
+   Um tabuleiro de jogo onde cada configuração possível é representada como um estado único (e.g., todas as posições possíveis em um jogo da velha).</p>
+<ol>
+<li><strong>Representação Fatorada</strong>:</li>
+<li>O estado é descrito por meio de variáveis e valores associados a essas variáveis.</li>
+<li>Permite expressar de maneira compacta problemas com muitos estados possíveis, evitando a necessidade de enumerar todos os estados.</li>
+<li>Usada em problemas mais complexos, onde as relações entre variáveis desempenham papel importante.</li>
+</ol>
+<p><strong>Exemplo de uso</strong>:<br />
+   Um Sudoku, onde cada célula é uma variável com um domínio (os números de 1 a 9) e restrições definindo as regras do jogo.</p>
+<h4 id="comparacao"><strong>Comparação</strong></h4>
+<table>
+<thead>
+<tr>
+<th><strong>Aspecto</strong></th>
+<th><strong>Representação Atômica</strong></th>
+<th><strong>Representação Fatorada</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Definição</strong></td>
+<td>Estados tratados como caixas pretas, sem estrutura interna.</td>
+<td>Estados descritos por variáveis com valores associados.</td>
+</tr>
+<tr>
+<td><strong>Modelagem</strong></td>
+<td>Enumeração de estados únicos.</td>
+<td>Composição de estados a partir de variáveis.</td>
+</tr>
+<tr>
+<td><strong>Escalabilidade</strong></td>
+<td>Pouco escalável para problemas com muitos estados.</td>
+<td>Mais escalável, já que explora relações entre variáveis.</td>
+</tr>
+<tr>
+<td><strong>Flexibilidade</strong></td>
+<td>Rígida; os estados precisam ser definidos explicitamente.</td>
+<td>Flexível; permite mudanças no modelo alterando variáveis.</td>
+</tr>
+<tr>
+<td><strong>Eficiência</strong></td>
+<td>Ineficiente para grandes espaços de estados.</td>
+<td>Mais eficiente para problemas com muitas restrições.</td>
+</tr>
+<tr>
+<td><strong>Aplicabilidade</strong></td>
+<td>Problemas simples ou de baixa complexidade.</td>
+<td>Problemas complexos com múltiplas restrições.</td>
+</tr>
+<tr>
+<td><strong>Exemplo de Problema</strong></td>
+<td>Labirinto, Jogo da Velha.</td>
+<td>Sudoku, Agendamento, Quadrados Mágicos.</td>
+</tr>
+<tr>
+<td><strong>Tratamento das Restrições</strong></td>
+<td>Restrições implícitas entre estados.</td>
+<td>Restrições explícitas entre variáveis.</td>
+</tr>
+<tr>
+<td><strong>Espaço de Estados</strong></td>
+<td>Enumerado explicitamente.</td>
+<td>Representado de forma compacta.</td>
+</tr>
+<tr>
+<td><strong>Complexidade de Representação</strong></td>
+<td>Simples.</td>
+<td>Mais detalhada e estruturada.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>A escolha entre as duas representações depende do problema. Se o espaço de estados puder ser gerenciado e as relações entre componentes forem simples, a <strong>representação atômica</strong> é suficiente. Por outro lado, problemas com estados complexos e interdependências são mais bem representados por uma <strong>abordagem fatorada</strong>.</p>
+<p><strong>Representação Atômica vs. Fatorada em CSPs</strong></p>
+<p>Na representação atômica, os estados são tratados como entidades indivisíveis e sem estrutura interna, ou seja, são considerados "caixas pretas". Cada estado é único e não possui variáveis específicas que o definam. Esse tipo de representação é útil para problemas onde os estados são simples ou podem ser enumerados.</p>
+<p>Por outro lado, a representação fatorada considera os estados como combinações de valores de variáveis. Cada estado é definido por um conjunto de variáveis que possuem valores específicos. Essa abordagem é mais eficiente e flexível, pois permite modelar problemas complexos com múltiplas restrições, explorando as relações entre as variáveis.</p>
+<p>Os problemas que utilizam representações fatoradas geralmente caem na categoria de <strong>problemas de satisfação de restrições</strong> (Constraint Satisfaction Problems - CSP). Em CSPs, temos:
+- <strong>Variáveis</strong>: Conjuntos de elementos que queremos atribuir valores.
+- <strong>Domínio</strong>: Os possíveis valores para cada variável.
+- <strong>Restrições</strong>: Condições que definem quais combinações de valores são permitidas.</p>
+<p>Resolver um CSP significa encontrar uma atribuição de valores para todas as variáveis que satisfaça todas as restrições.</p>
+<hr />
+<p><strong>Algortimo de CSP: Quebra-cabeça de Quadrado Mágico</strong></p>
+<p>Algoritmo para formar um quadrado mágico (3 \times 3). Um quadrado mágico é uma matriz onde a soma dos números em cada linha, coluna e diagonal principal é a mesma.</p>
+<p>O código  utiliza o módulo <code>constraint</code> do Python para resolver o problema:</p>
+<pre><code class="language-python">from constraint import Problem
+
+def magic_square_csp(size):
+    # Soma mágica para um quadrado mágico de tamanho N
+    magic_sum = size * (size**2 + 1) // 2
+
+    # Criar o problema CSP
+    problem = Problem()
+
+    # Adicionar variáveis (uma para cada célula)
+    variables = [(i, j) for i in range(size) for j in range(size)]
+    domain = list(range(1, size**2 + 1))
+    problem.addVariables(variables, domain)
+
+    # Restrições de soma para linhas
+    for i in range(size):
+        problem.addConstraint(lambda *row: sum(row) == magic_sum, [(i, j) for j in range(size)])
+
+    # Restrições de soma para colunas
+    for j in range(size):
+        problem.addConstraint(lambda *col: sum(col) == magic_sum, [(i, j) for i in range(size)])
+
+    # Restrições de soma para as diagonais
+    problem.addConstraint(lambda *diag1: sum(diag1) == magic_sum, [(i, i) for i in range(size)])
+    problem.addConstraint(lambda *diag2: sum(diag2) == magic_sum, [(i, size - i - 1) for i in range(size)])
+
+    # Restrições de valores únicos
+    problem.addConstraint(lambda *vals: len(set(vals)) == len(vals), variables)
+
+    # Resolver o problema
+    solutions = problem.getSolutions()
+    return solutions
+
+# Executar para um quadrado mágico 3x3
+solutions = magic_square_csp(3)
+
+# Exibir uma solução (se existir)
+if solutions:
+    for var, value in sorted(solutions[0].items()):
+        print(f&quot;Posição {var}: {value}&quot;)
+    print(&quot;\nQuadrado mágico:&quot;)
+    for i in range(3):
+        print([solutions[0][(i, j)] for j in range(3)])
+else:
+    print(&quot;Nenhuma solução encontrada.&quot;)
+</code></pre>
+<p><strong>Passos</strong>:
+1. <strong>Definição das Variáveis</strong>: Cada célula do quadrado mágico é tratada como uma variável.
+2. <strong>Domínio</strong>: Os valores possíveis para as variáveis são números de 1 a (N^2).
+3. <strong>Restrições</strong>:
+   - A soma de cada linha, coluna e diagonal deve ser igual à soma mágica.
+   - Os valores em todas as células devem ser únicos.
+4. <strong>Solução</strong>: O módulo <code>constraint</code> resolve o problema e retorna as soluções possíveis.</p>
+<hr />
+<h2 id="definindo-problemas-de-satisfacao-de-condicoes-csp"><strong>Definindo Problemas de Satisfação de Condições (CSP)</strong></h2>
+<p>Os problemas de satisfação de condições (CSP - Constraint Satisfaction Problems) são uma classe poderosa e amplamente utilizada em Inteligência Artificial (IA) para resolver problemas que podem ser representados como combinações de variáveis sujeitas a restrições. CSPs fornecem uma abordagem estruturada para representar e resolver problemas complexos, com grande aplicabilidade em domínios como agendamento, planejamento, quebra-cabeças e alocação de recursos.</p>
+<h3 id="componentes-de-um-csp"><strong>Componentes de um CSP</strong></h3>
+<p>Um CSP é definido formalmente por três componentes principais:</p>
+<ol>
+<li><strong>Variáveis (x)</strong>:</li>
+<li>Um conjunto x = {x1, x2, ..., xn} de variáveis.</li>
+<li>Cada variável representa um elemento do problema que requer uma atribuição de valor.</li>
+</ol>
+<p><strong>Exemplo</strong>: No problema do Sudoku, cada célula da grade é uma variável.</p>
+<ol>
+<li><strong>Domínios (d)</strong>:</li>
+<li>Um conjunto d = {d1, d2, ..., dn}, onde cada di é o domínio associado à variável xi.</li>
+<li>O domínio é o conjunto de valores possíveis que podem ser atribuídos a uma variável.</li>
+</ol>
+<p><strong>Exemplo</strong>: Em um Sudoku, o domínio de cada variável (célula) é o conjunto {1, 2, ..., 9}.</p>
+<ol>
+<li><strong>Condições (c)</strong>:</li>
+<li>Um conjunto de restrições c = {c1, c2, ..., ck}, onde cada restrição especifica combinações permitidas de valores para um subconjunto de variáveis.</li>
+<li>As condições podem ser unárias (envolvendo uma única variável) ou mais complexas (envolvendo várias variáveis).</li>
+</ol>
+<p><strong>Exemplo</strong>: No Sudoku, uma restrição garante que números em uma linha, coluna ou bloco 3x3 sejam únicos.</p>
+<h3 id="funcionamento-e-solucao"><strong>Funcionamento e Solução</strong></h3>
+<p>A resolução de CSPs envolve a busca por uma atribuição de valores para as variáveis que satisfaça todas as restrições do problema. Os algoritmos de busca em CSP se destacam porque:
+- Aproveitam a estrutura de estados para simplificar a busca.
+- Utilizam heurísticas e técnicas específicas de domínio, poda de espaço de busca para eliminar combinações inválidas de forma eficiente.</p>
+<h3 id="por-que-csps-sao-poderosos"><strong>Por que CSPs são Poderosos?</strong></h3>
+<ol>
+<li><strong>Estruturação do Problema</strong>:</li>
+<li>
+<p>A divisão em variáveis, domínios e restrições permite modelar problemas de maneira clara e intuitiva.</p>
+</li>
+<li>
+<p><strong>Redução do Espaço de Busca</strong>:</p>
+</li>
+<li>
+<p>CSPs eliminam grandes porções do espaço de busca, analisando restrições que descartam combinações inviáveis logo no início do processo.</p>
+</li>
+<li>
+<p><strong>Flexibilidade</strong>:</p>
+</li>
+<li>
+<p>Muitos problemas podem ser representados como CSPs, e o modelo de transição (como os estados mudam) pode ser deduzido diretamente a partir da descrição do problema.</p>
+</li>
+<li>
+<p><strong>Aplicação de Heurísticas</strong>:</p>
+</li>
+<li>Heurísticas, como "variável mais restritiva" (MRV) ou "ordem mínima de domínio", podem ser aplicadas para acelerar a busca.</li>
+</ol>
+<h3 id="algoritmo-de-csp"><strong>Algoritmo de CSP</strong></h3>
+<p>O exemplo a seguir resolve o problema das N Rainhas, onde devemos posicionar N rainhas em um tabuleiro N x N, de forma que nenhuma rainha ataque outra. Este é um problema clássico de CSP.</p>
+<h4 id="codigo">Código:</h4>
+<pre><code class="language-python">from constraint import Problem
+
+def n_queens_csp(n):
+    # Criar o problema
+    problem = Problem()
+
+    # Adicionar variáveis (uma para cada rainha, representando a linha)
+    # Cada variável pode estar em uma coluna diferente (domínio: 0 a n-1)
+    problem.addVariables(range(n), range(n))
+
+    # Adicionar restrições:
+    # 1. Nenhuma rainha pode estar na mesma coluna
+    problem.addConstraint(lambda *cols: len(set(cols)) == n, range(n))
+
+    # 2. Nenhuma rainha pode atacar na diagonal
+    def no_diagonal_attack(var1, var2, col1, col2):
+        return abs(var1 - var2) != abs(col1 - col2)
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            problem.addConstraint(no_diagonal_attack, (i, j))
+
+    # Resolver o problema
+    solutions = problem.getSolutions()
+    return solutions
+
+# Executar para 8 rainhas
+solutions = n_queens_csp(8)
+
+# Exibir uma solução (se existir)
+if solutions:
+    print(&quot;Solução encontrada:&quot;)
+    for var, col in sorted(solutions[0].items()):
+        print(f&quot;Rainha {var + 1} na coluna {col + 1}&quot;)
+else:
+    print(&quot;Nenhuma solução encontrada.&quot;)
+</code></pre>
+<hr />
+<h2 id="tipos-de-condicoes-em-csps"><strong>Tipos de Condições em CSPs</strong></h2>
+<p>Os <strong>Problemas de Satisfação de Condições (CSP)</strong> são construídos com base em restrições que regem quais combinações de valores para variáveis são permitidas. Essas restrições, ou condições, variam em termos de complexidade e número de variáveis envolvidas. Compreender os tipos de condições é essencial para modelar problemas de forma eficiente e implementar soluções práticas.</p>
+<h3 id="classificacao-dos-tipos-de-condicoes"><strong>Classificação dos Tipos de Condições</strong></h3>
+<h4 id="1-condicao-unitaria"><strong>1. Condição Unitária</strong></h4>
+<ul>
+<li>Uma condição unitária envolve <strong>apenas uma variável</strong>. </li>
+<li>Ela restringe diretamente os valores que essa variável pode assumir.</li>
+</ul>
+<p><strong>Exemplo Prático</strong>:
+- Em um problema de planejamento de rotas, uma condição unitária pode ser:<br />
+  "O ponto de partida (cidade A) não pode ser G."<br />
+  Formalmente: <code>A ≠ G</code>.</p>
+<h4 id="2-condicao-binaria"><strong>2. Condição Binária</strong></h4>
+<ul>
+<li>Uma condição binária envolve <strong>duas variáveis</strong> e especifica uma relação entre elas.</li>
+<li>Esse tipo de condição é comum em problemas que envolvem relações diretas entre pares de elementos.</li>
+</ul>
+<p><strong>Exemplo Prático</strong>:
+- No problema do mapa das cores, onde regiões adjacentes devem ter cores diferentes:<br />
+  "A cor de SA (South Australia) deve ser diferente da de NSW (New South Wales)."<br />
+  Formalmente: <code>SA ≠ NSW</code>.</p>
+<h4 id="3-condicao-ternaria"><strong>3. Condição Ternária</strong></h4>
+<ul>
+<li>Uma condição ternária envolve <strong>três variáveis</strong>, impondo uma relação entre todas elas.</li>
+<li>É útil quando há dependências mais complexas entre múltiplos elementos.</li>
+</ul>
+<p><strong>Exemplo Prático</strong>:
+- No problema de alocação de assentos em uma conferência, onde assentos adjacentes seguem uma hierarquia de importância:<br />
+  "A pessoa X deve ter uma posição superior à de Y, que, por sua vez, deve ser superior à de Z."<br />
+  Formalmente: <code>X &gt; Y &gt; Z</code>.</p>
+<h4 id="4-condicao-global"><strong>4. Condição Global</strong></h4>
+<ul>
+<li>Uma condição global envolve <strong>um número arbitrário de variáveis</strong>, mas não necessariamente todas as variáveis do problema.</li>
+<li>Geralmente, são usadas em restrições amplas que aplicam a mesma regra para muitas variáveis ao mesmo tempo.</li>
+</ul>
+<p><strong>Exemplo Prático</strong>:
+- No Sudoku, cada número deve aparecer apenas uma vez em cada linha, coluna e bloco 3x3. Isso pode ser representado pela condição global:<br />
+<code>Alldiff(A1, A2, A3, B1, B2, B3, C1, C2, C3)</code>.</p>
+<h3 id="transformacao-de-condicoes"><strong>Transformação de Condições</strong></h3>
+<p>Qualquer CSP pode ser convertido para um modelo contendo <strong>apenas condições binárias</strong>.<br />
+Por exemplo:
+- Uma condição ternária como <code>X &gt; Y &gt; Z</code> pode ser transformada em duas condições binárias:<br />
+<code>X &gt; Y</code> e <code>Y &gt; Z</code>.</p>
+<p>Essa conversão simplifica a implementação de algoritmos, mas pode aumentar o número de condições no problema.</p>
+<h3 id="condicoes-de-preferencia"><strong>Condições de Preferência</strong></h3>
+<p>Além das condições necessárias, os CSPs também podem incluir <strong>condições de preferência</strong>. Essas condições não precisam ser satisfeitas, mas ajudam a encontrar soluções mais adequadas ou desejadas.</p>
+<h4 id="exemplo-pratico-agendamento-universitario"><strong>Exemplo Prático: Agendamento Universitário</strong></h4>
+<ol>
+<li><strong>Condições Necessárias</strong>:</li>
+<li>Nenhum professor pode ministrar duas aulas ao mesmo tempo.</li>
+<li>
+<p>Nenhuma sala pode abrigar mais de uma turma simultaneamente.</p>
+</li>
+<li>
+<p><strong>Condições de Preferência</strong>:</p>
+</li>
+<li>O professor A prefere lecionar pela manhã.</li>
+<li>A sala X deve ser usada prioritariamente para turmas com mais de 100 alunos.</li>
+</ol>
+<p>Soluções que atendem às condições preferenciais são consideradas <strong>soluções preferidas</strong>, mesmo que não sejam obrigatórias.</p>
+<h3 id="propagacao-de-condicoes"><strong>Propagação de Condições</strong></h3>
+<p>A propagação de condições é uma técnica usada para reduzir o espaço de busca em CSPs, garantindo <strong>consistência local</strong>. Em vez de apenas tentar atribuições para as variáveis, o algoritmo:
+1. Escolhe um valor para uma variável.
+2. <strong>Propaga a condição</strong>, restringindo os valores possíveis das variáveis relacionadas.</p>
+<p>Essa técnica:
+- Elimina combinações inviáveis cedo no processo de busca.
+- Pode disparar uma reação em cadeia, onde a redução em uma variável causa reduções em outras.</p>
+<p><strong>Exemplo Prático: Sudoku</strong>
+- Ao atribuir o número 5 à célula A1, as condições do Sudoku eliminam 5 como opção para todas as outras células na mesma linha, coluna e bloco.</p>
+<h3 id="conclusao"><strong>Conclusão</strong></h3>
+<p>Entender os tipos de condições e como aplicá-las em CSPs é crucial para resolver problemas complexos de forma eficiente. Enquanto as condições unitárias, binárias e ternárias são úteis para modelar relações simples, as condições globais e de preferência são fundamentais para problemas mais amplos e realistas.</p>
+<hr />
+<h2 id="consistencia-em-csps"><strong>Consistência em CSPs</strong></h2>
+<h3 id="consistencia-de-nos"><strong>Consistência de Nós</strong></h3>
+<p>A consistência de nós é o nível mais básico de consistência aplicado em problemas de satisfação de condições (CSPs). É um conceito que ajuda a simplificar o espaço de busca inicial, garantindo que cada variável seja compatível com suas condições unitárias antes de iniciar a resolução do problema. Isso é particularmente importante para reduzir os valores possíveis no domínio das variáveis, eliminando atribuições que violam as restrições básicas.</p>
+<h3 id="o-que-e-consistencia-de-nos"><strong>O que é Consistência de Nós?</strong></h3>
+<p>Uma variável (representada como um nó em um grafo que modela o CSP) é considerada <strong>nó-consistente</strong> quando <strong>todos os valores do domínio dessa variável satisfazem suas condições unitárias</strong>.</p>
+<p>Se uma variável possui valores em seu domínio que não satisfazem as condições unitárias associadas a ela, esses valores podem ser eliminados sem afetar a solução final do problema.</p>
+<h3 id="como-garantir-a-consistencia-de-nos"><strong>Como Garantir a Consistência de Nós?</strong></h3>
+<p>A consistência de nós é geralmente alcançada como um passo de pré-processamento nos CSPs:
+1. Para cada variável, avalie todas as condições unitárias associadas a ela.
+2. Remova do domínio da variável todos os valores que violam essas condições.</p>
+<h3 id="vantagens-da-consistencia-de-nos"><strong>Vantagens da Consistência de Nós</strong></h3>
+<ol>
+<li>
+<p><strong>Redução do Espaço de Busca</strong>:<br />
+   Eliminar valores inválidos no início reduz significativamente o número de combinações a serem exploradas.</p>
+</li>
+<li>
+<p><strong>Simplicidade</strong>:<br />
+   Consistência de nós é um conceito direto e pode ser aplicado de forma eficiente como uma etapa preliminar.</p>
+</li>
+<li>
+<p><strong>Base para Outras Consistências</strong>:<br />
+   Garantir a consistência de nós é um pré-requisito para aplicar técnicas mais avançadas, como a consistência de arco e consistência de trajetória.</p>
+</li>
+</ol>
+<h3 id="exemplo-de-consistencia-de-nos-alocacao-de-tarefas"><strong>Exemplo de Consistência de Nós: Alocação de Tarefas</strong></h3>
+<p>Vamos aplicar o conceito de consistência de nós em um problema de <strong>alocação de tarefas</strong>. Imagine que temos um conjunto de funcionários e tarefas que devem ser atribuídas, com algumas condições específicas.</p>
+<h4 id="problema"><strong>Problema</strong></h4>
+<p>Temos três funcionários (<strong>A</strong>, <strong>B</strong>, <strong>C</strong>) que podem realizar tarefas específicas. O objetivo é garantir que cada funcionário receba uma tarefa que esteja dentro de sua capacidade.</p>
+<ol>
+<li><strong>Variáveis</strong>:</li>
+<li>
+<p>Funcionários: <code>A</code>, <code>B</code>, <code>C</code>.</p>
+</li>
+<li>
+<p><strong>Domínios</strong>:</p>
+</li>
+<li>
+<p>Cada funcionário pode realizar as seguintes tarefas:  </p>
+<ul>
+<li><code>A</code>: <code>{T1, T2, T3}</code>  </li>
+<li><code>B</code>: <code>{T2, T3, T4}</code>  </li>
+<li><code>C</code>: <code>{T1, T3, T4}</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Condições Unitárias</strong>:</p>
+</li>
+<li>Funcionário <code>A</code> não pode realizar a tarefa <code>T2</code>.  </li>
+<li>Funcionário <code>C</code> só pode realizar tarefas que terminam com o número <code>4</code>.  </li>
+</ol>
+<h4 id="garantindo-consistencia-de-nos"><strong>Garantindo Consistência de Nós</strong></h4>
+<ol>
+<li>Para a variável <code>A</code>, eliminamos <code>T2</code> do domínio, já que a condição unitária impede <code>A</code> de realizar essa tarefa.</li>
+<li>Para a variável <code>C</code>, restringimos o domínio para conter apenas <code>T4</code>, pois essa é a única tarefa válida de acordo com a condição unitária.</li>
+</ol>
+<h4 id="novo-dominio-apos-consistencia-de-nos"><strong>Novo Domínio Após Consistência de Nós</strong>:</h4>
+<ul>
+<li><code>A</code>: <code>{T1, T3}</code>  </li>
+<li><code>B</code>: <code>{T2, T3, T4}</code>  </li>
+<li><code>C</code>: <code>{T4}</code>  </li>
+</ul>
+<h4 id="codigo-em-python"><strong>Código em Python</strong></h4>
+<p>Aqui está a implementação do exemplo:</p>
+<pre><code class="language-python">from constraint import Problem
+
+# Função para aplicar consistência de nós
+def apply_node_consistency(problem, variable, condition):
+    &quot;&quot;&quot;
+    Remove valores do domínio de uma variável que não satisfazem a condição.
+    &quot;&quot;&quot;
+    domain = problem._variables[variable]
+    consistent_domain = [value for value in domain if condition(value)]
+    problem._variables[variable] = consistent_domain
+
+# Exemplo: Alocação de tarefas
+def task_allocation_example():
+    problem = Problem()
+
+    # Adicionando variáveis e seus domínios
+    problem.addVariable(&quot;A&quot;, [&quot;T1&quot;, &quot;T2&quot;, &quot;T3&quot;])  # Funcionário A
+    problem.addVariable(&quot;B&quot;, [&quot;T2&quot;, &quot;T3&quot;, &quot;T4&quot;])  # Funcionário B
+    problem.addVariable(&quot;C&quot;, [&quot;T1&quot;, &quot;T3&quot;, &quot;T4&quot;])  # Funcionário C
+
+    # Aplicando consistência de nó
+    apply_node_consistency(problem, &quot;A&quot;, lambda task: task != &quot;T2&quot;)  # A não pode realizar T2
+    apply_node_consistency(problem, &quot;C&quot;, lambda task: task.endswith(&quot;4&quot;))  # C só realiza tarefas que terminam com 4
+
+    # Mostrando os domínios atualizados
+    return problem._variables
+
+# Executar exemplo
+domains_after_consistency = task_allocation_example()
+print(&quot;Domínios após consistência de nós:&quot;, domains_after_consistency)
+</code></pre>
+<h4 id="saida"><strong>Saída</strong>:</h4>
+<pre><code>Domínios após consistência de nós: {'A': ['T1', 'T3'], 'B': ['T2', 'T3', 'T4'], 'C': ['T4']}
+</code></pre>
+<h4 id="interpretacao"><strong>Interpretação</strong></h4>
+<ol>
+<li>O domínio de <code>A</code> foi reduzido de <code>{T1, T2, T3}</code> para <code>{T1, T3}</code> devido à condição de que <code>A</code> não pode realizar <code>T2</code>.</li>
+<li>O domínio de <code>C</code> foi reduzido de <code>{T1, T3, T4}</code> para <code>{T4}</code>, pois somente <code>T4</code> satisfaz a condição de tarefas que terminam com <code>4</code>.</li>
+<li>O domínio de <code>B</code> permaneceu inalterado, pois nenhuma condição unitária foi aplicada a ele.</li>
+</ol>
+<h3 id="resumo"><strong>Resumo</strong></h3>
+<p>Este exemplo ilustra como aplicar consistência de nós em um problema realista de alocação de tarefas, mostrando como as condições unitárias ajudam a reduzir o espaço de busca e tornam o problema mais manejável antes de avançar para outras formas de consistência, como consistência de arcos.</p>
+<hr />
+<h3 id="consistencia-de-arco"><strong>Consistência de Arco</strong></h3>
+<p>A <strong>consistência de arco</strong> é um conceito crucial em problemas de satisfação de condições (CSPs), principalmente quando lidamos com relações entre duas variáveis. Esse tipo de consistência se concentra em garantir que, para todas as variáveis de um problema, cada valor no domínio de uma variável seja compatível com algum valor no domínio da variável relacionada por uma condição binária.</p>
+<h3 id="o-que-e-consistencia-de-arco"><strong>O que é Consistência de Arco?</strong></h3>
+<p>Uma <strong>variável em um CSP</strong> é considerada <strong>arco-consistente</strong> se <strong>todos os valores em seu domínio</strong> satisfazem <strong>as condições binárias</strong> associadas a ela. Isso significa que, para cada valor da variável, existe pelo menos um valor na variável relacionada que respeita a restrição entre as duas variáveis.</p>
+<p>Um <strong>grafo é arco-consistente</strong> se todas as variáveis do grafo são arco-consistentes entre si, ou seja, se todas as condições binárias entre as variáveis são satisfeitas.</p>
+<h3 id="exemplo-de-consistencia-de-arco"><strong>Exemplo de Consistência de Arco</strong></h3>
+<p>Vamos usar o exemplo de um <strong>problema de alocação de horários para aulas</strong>, em que temos duas variáveis, <strong>Professor A</strong> e <strong>Professor B</strong>, que precisam ser alocados a horários diferentes.</p>
+<h4 id="problema_1"><strong>Problema</strong>:</h4>
+<p>Temos duas variáveis, <strong>A</strong> (para o Professor A) e <strong>B</strong> (para o Professor B). Ambas têm o seguinte domínio de valores, representando os horários disponíveis:</p>
+<ul>
+<li><strong>Domínio de A</strong>: <code>{1, 2, 3}</code> (representando os horários 1, 2 e 3).</li>
+<li><strong>Domínio de B</strong>: <code>{2, 3, 4}</code> (representando os horários 2, 3 e 4).</li>
+</ul>
+<p><strong>Condição Binária</strong>: <strong>A</strong> e <strong>B</strong> não podem ser alocados ao mesmo horário.</p>
+<p>Portanto, a condição binária é: <strong>A ≠ B</strong> (A e B não podem ter o mesmo valor de horário).</p>
+<h4 id="consistencia-de-arco-no-exemplo"><strong>Consistência de Arco no Exemplo</strong></h4>
+<ol>
+<li>
+<p>Para a variável <strong>A</strong> com domínio <code>{1, 2, 3}</code>, precisamos verificar se existe algum valor no domínio de <strong>B</strong> que seja diferente de <strong>A</strong> para cada valor de <strong>A</strong>.</p>
+</li>
+<li>
+<p>Para <strong>A = 1</strong>, verificamos se existe algum valor em <strong>B</strong> que seja diferente de 1. Os valores válidos para <strong>B</strong> são <code>{2, 3, 4}</code>, e todos esses valores são diferentes de 1. Logo, <strong>A = 1</strong> é arco-consistente.</p>
+</li>
+<li>
+<p>Para <strong>A = 2</strong>, verificamos se existe algum valor em <strong>B</strong> que seja diferente de 2. Os valores válidos para <strong>B</strong> são <code>{3, 4}</code>, ambos diferentes de 2, então <strong>A = 2</strong> é arco-consistente.</p>
+</li>
+<li>
+<p>Para <strong>A = 3</strong>, verificamos se existe algum valor em <strong>B</strong> que seja diferente de 3. Os valores válidos para <strong>B</strong> são <code>{2, 4}</code>, ambos diferentes de 3, então <strong>A = 3</strong> também é arco-consistente.</p>
+</li>
+<li>
+<p>Agora, para a variável <strong>B</strong>, precisamos verificar a consistência de arco em relação à variável <strong>A</strong>. Para cada valor no domínio de <strong>B</strong>, verificamos se existe algum valor no domínio de <strong>A</strong> que seja diferente de <strong>B</strong>.</p>
+</li>
+<li>
+<p>Para <strong>B = 2</strong>, verificamos se existe algum valor em <strong>A</strong> que seja diferente de 2. O valor válido em <strong>A</strong> é 1, então <strong>B = 2</strong> é arco-consistente.</p>
+</li>
+<li>
+<p>Para <strong>B = 3</strong>, verificamos se existe algum valor em <strong>A</strong> que seja diferente de 3. O valor válido em <strong>A</strong> é 1, então <strong>B = 3</strong> é arco-consistente.</p>
+</li>
+<li>
+<p>Para <strong>B = 4</strong>, verificamos se existe algum valor em <strong>A</strong> que seja diferente de 4. Os valores válidos em <strong>A</strong> são <code>{1, 2, 3}</code>, todos diferentes de 4, então <strong>B = 4</strong> também é arco-consistente.</p>
+</li>
+</ol>
+<h3 id="resultado-da-consistencia-de-arco"><strong>Resultado da Consistência de Arco</strong></h3>
+<ul>
+<li><strong>A</strong> é arco-consistente, pois para cada valor no seu domínio, existe pelo menos um valor em <strong>B</strong> que satisfaça a restrição <strong>A ≠ B</strong>.</li>
+<li><strong>B</strong> é arco-consistente, pois para cada valor no seu domínio, existe pelo menos um valor em <strong>A</strong> que satisfaz a restrição <strong>A ≠ B</strong>.</li>
+</ul>
+<p>Neste caso, a consistência de arco não reduz o número de valores nos domínios das variáveis, mas garante que todas as possíveis atribuições de valores entre as duas variáveis respeitem a restrição binária.</p>
+<h3 id="aplicacao-do-algoritmo-ac-3"><strong>Aplicação do Algoritmo AC-3</strong></h3>
+<p>O algoritmo <strong>AC-3 (Arc-Consistency 3)</strong> é um dos métodos mais comuns para verificar a consistência de arco. Ele trabalha de forma iterativa, verificando se todas as restrições binárias são satisfeitas e ajustando os domínios das variáveis conforme necessário.</p>
+<p>O algoritmo AC-3 aplicaria as verificações de consistência de arco para as variáveis <strong>A</strong> e <strong>B</strong> de acordo com a restrição <strong>A ≠ B</strong>. O algoritmo garantiria que os domínios de <strong>A</strong> e <strong>B</strong> permanecessem consistentes, sem a necessidade de fazer ajustes, pois o espaço de busca já está em conformidade com as restrições.</p>
+<h3 id="exemplo-em-codigo-python"><strong>Exemplo em Código Python</strong></h3>
+<p>Aqui está a implementação de um exemplo simples de consistência de arco em Python:</p>
+<pre><code class="language-python">from constraint import Problem
+
+# Função para aplicar consistência de arco
+def arc_consistency(problem, var1, var2, condition):
+    &quot;&quot;&quot;
+    Aplica consistência de arco entre duas variáveis.
+    &quot;&quot;&quot;
+    domain1 = problem._variables[var1]
+    domain2 = problem._variables[var2]
+
+    # Verificar se todos os valores em var1 têm uma correspondência em var2 que satisfaça a condição
+    for value1 in domain1[:]:
+        valid = False
+        for value2 in domain2:
+            if condition(value1, value2):
+                valid = True
+                break
+        if not valid:
+            domain1.remove(value1)  # Eliminar valor inválido
+    # Verificar também para var2
+    for value2 in domain2[:]:
+        valid = False
+        for value1 in domain1:
+            if condition(value1, value2):
+                valid = True
+                break
+        if not valid:
+            domain2.remove(value2)  # Eliminar valor inválido
+
+# Exemplo: Alocação de horários para professores
+def schedule_example():
+    problem = Problem()
+
+    # Adicionando variáveis e seus domínios
+    problem.addVariable(&quot;A&quot;, [1, 2, 3])  # Professor A
+    problem.addVariable(&quot;B&quot;, [2, 3, 4])  # Professor B
+
+    # Aplicando consistência de arco
+    arc_consistency(problem, &quot;A&quot;, &quot;B&quot;, lambda a, b: a != b)
+
+    # Mostrando os domínios atualizados
+    return problem._variables
+
+# Executar exemplo
+domains_after_arc_consistency = schedule_example()
+print(&quot;Domínios após consistência de arco:&quot;, domains_after_arc_consistency)
+</code></pre>
+<h4 id="saida_1"><strong>Saída</strong>:</h4>
+<pre><code>Domínios após consistência de arco: {'A': [1, 2, 3], 'B': [2, 3, 4]}
+</code></pre>
+<h3 id="conclusao_1"><strong>Conclusão</strong></h3>
+<p>A <strong>consistência de arco</strong> garante que, para cada par de variáveis, qualquer valor atribuído a uma variável tenha uma correspondente atribuição possível para a variável relacionada que satisfaça a restrição binária. Embora o exemplo mostrado aqui não tenha causado mudanças significativas nos domínios das variáveis, a consistência de arco é uma técnica crucial para reduzir o espaço de busca em problemas mais complexos. Além disso, algoritmos como <strong>AC-3</strong> são fundamentais para automatizar esse processo em problemas de maior escala.</p>
+<hr />
+<h3 id="consistencia-de-trajeto"><strong>Consistência de Trajeto</strong></h3>
+<p>A <strong>consistência de trajeto</strong> é um conceito mais avançado e menos intuitivo que a consistência de arco e nó. Ela aborda as relações entre <strong>triplas de variáveis</strong> em um <strong>problema de satisfação de condições</strong> (CSP). Ao contrário da consistência de arco, que se concentra em pares de variáveis, a consistência de trajeto examina a interação entre três variáveis e suas respectivas condições. </p>
+<h3 id="o-que-e-consistencia-de-trajeto"><strong>O que é Consistência de Trajeto?</strong></h3>
+<p>A <strong>consistência de trajeto</strong> verifica se, dada uma <strong>tripla de variáveis</strong>, existe uma combinação de valores que satisfaça as condições de todas as três variáveis, levando em consideração as restrições entre essas variáveis. Essencialmente, a consistência de trajeto permite inferir novas condições implícitas observando interações de três variáveis ao mesmo tempo, e não apenas duas, como no caso da consistência de arco.</p>
+<p>Uma tripla de variáveis <strong>X</strong>, <strong>Y</strong> e <strong>Z</strong> é considerada <strong>trajeto-consistente</strong> se, para cada atribuição de valores a <strong>X</strong> e <strong>Y</strong> que satisfaçam as condições entre <strong>X</strong> e <strong>Y</strong>, existir uma atribuição para <strong>Z</strong> que satisfaça tanto as condições entre <strong>X</strong> e <strong>Z</strong>, quanto entre <strong>Y</strong> e <strong>Z</strong>.</p>
+<h3 id="alocacao-de-projetos-a-funcionarios"><strong>Alocação de Projetos a Funcionários</strong></h3>
+<p>Tendo um conjunto de <strong>três funcionários</strong> e <strong>três projetos</strong> que devem ser alocados. Cada projeto tem um prazo de entrega, e cada funcionário tem uma capacidade de trabalhar em determinados projetos dentro de uma janela de tempo. O problema é alocar os projetos aos funcionários, respeitando as condições de tempo e capacidade de cada um.</p>
+<h4 id="variaveis"><strong>Variáveis</strong>:</h4>
+<ul>
+<li><strong>Funcionário A</strong>: Pode trabalhar em <code>{P1, P2, P3}</code></li>
+<li><strong>Funcionário B</strong>: Pode trabalhar em <code>{P1, P2, P3}</code></li>
+<li><strong>Funcionário C</strong>: Pode trabalhar em <code>{P1, P2, P3}</code></li>
+</ul>
+<h4 id="restricoes"><strong>Restrições</strong>:</h4>
+<ul>
+<li><strong>P1</strong> precisa ser completado até o dia 5.</li>
+<li><strong>P2</strong> precisa ser completado até o dia 10.</li>
+<li><strong>P3</strong> precisa ser completado até o dia 15.</li>
+</ul>
+<p><strong>Condicionais</strong>:
+1. O <strong>Funcionário A</strong> pode trabalhar em <strong>P1</strong> e <strong>P3</strong>, mas não em <strong>P2</strong>.
+2. O <strong>Funcionário B</strong> pode trabalhar em <strong>P2</strong> e <strong>P3</strong>, mas não em <strong>P1</strong>.
+3. O <strong>Funcionário C</strong> pode trabalhar em <strong>P1</strong> e <strong>P2</strong>, mas não em <strong>P3</strong>.</p>
+<p>A consistência de trajeto em relação a essas três variáveis (os funcionários A, B e C) verifica se a combinação de <strong>A</strong> e <strong>B</strong> que satisfaz suas restrições também permite uma alocação viável para o <strong>Funcionário C</strong>.</p>
+<ul>
+<li>Se, por exemplo, o <strong>Funcionário A</strong> for alocado em <strong>P1</strong> e o <strong>Funcionário B</strong> for alocado em <strong>P2</strong>, então a <strong>consistência de trajeto</strong> verifica se é possível alocar o <strong>Funcionário C</strong> em <strong>P3</strong> sem violar nenhuma restrição de prazo.</li>
+</ul>
+<p>Em outras palavras, a consistência de trajeto exige que, para cada atribuição válida de <strong>A</strong> e <strong>B</strong>, exista uma atribuição válida para <strong>C</strong> que atenda todas as condições de capacidade e prazo.</p>
+<h3 id="aplicacao-da-consistencia-de-trajeto"><strong>Aplicação da Consistência de Trajeto</strong></h3>
+<p>A <strong>consistência de trajeto</strong> é especialmente útil quando lidamos com problemas que envolvem múltiplas interações entre variáveis, como em problemas de <strong>planejamento de recursos</strong> ou <strong>alocação de tarefas</strong>, onde é necessário garantir que a solução para um conjunto de variáveis seja consistente com outras variáveis relacionadas.</p>
+<ul>
+<li>
+<p><strong>Em um problema de alocação de horários de aulas</strong>, a consistência de trajeto pode ser usada para garantir que as condições de alocação de professores, salas e turmas sejam satisfatórias ao mesmo tempo. Por exemplo, se duas turmas estão programadas para usar a mesma sala, a consistência de trajeto pode ser utilizada para garantir que o horário de uma delas não entre em conflito com o horário da outra.</p>
+</li>
+<li>
+<p><strong>Em um problema de otimização de redes</strong>, como alocação de recursos em redes de computadores, a consistência de trajeto pode ser usada para garantir que as variáveis associadas aos links de rede e aos dispositivos sejam combinadas de maneira que a rede funcione de maneira eficiente e sem congestionamentos.</p>
+</li>
+</ul>
+<h3 id="conclusao_2"><strong>Conclusão</strong></h3>
+<p>A <strong>consistência de trajeto</strong> é uma técnica poderosa e útil para resolver CSPs complexos, onde as restrições não envolvem apenas pares de variáveis, mas sim interações mais complexas entre trios de variáveis. Essa técnica permite inferir condições implícitas e reduzir o espaço de busca de maneira mais eficiente. Embora o conceito seja menos intuitivo que a consistência de arco e nó, ele é essencial para a resolução de problemas em áreas como alocação de recursos, planejamento de horários e otimização de redes.</p>
+<hr />
+<h3 id="consistencia-k-em-csps"><strong>Consistência k em CSPs</strong></h3>
+<p>A <strong>consistência k</strong> é uma extensão dos conceitos de consistência usados em problemas de satisfação de condições (CSPs), como <strong>consistência de nó</strong>, <strong>consistência de arco</strong> e <strong>consistência de trajeto</strong>. A ideia central por trás da consistência k é garantir que, para qualquer conjunto de (k - 1) variáveis, exista uma atribuição de valores consistente para a k-ésima variável, levando em consideração todas as restrições entre essas variáveis.</p>
+<p>A consistência k permite que, ao considerar qualquer conjunto de (k - 1) variáveis em um CSP, se já houver uma atribuição consistente para essas (k - 1) variáveis, será possível encontrar uma atribuição válida para a k-ésima variável que satisfaça as condições do problema.</p>
+<h3 id="definicao-formal-da-consistencia-k"><strong>Definição Formal da Consistência k</strong></h3>
+<p>Uma CSP é considerada <strong>k-consistente</strong> se, para qualquer conjunto de (k - 1) variáveis e para qualquer atribuição consistente dessas variáveis, sempre é possível encontrar uma atribuição consistente para a k-ésima variável.</p>
+<p>Além disso, uma CSP pode ser considerada <strong>fortemente k-consistente</strong> se ela for <strong>k-consistente</strong>, <strong>(k-1)-consistente</strong>, <strong>(k-2)-consistente</strong>, e assim por diante, até ser <strong>1-consistente</strong>. Ou seja, a consistência deve ser válida para todas as ordens de variáveis, desde o conjunto mais simples até o conjunto completo de variáveis do CSP.</p>
+<h3 id="exemplo-de-consistencia-3"><strong>Exemplo de Consistência 3</strong></h3>
+<p>Vamos ilustrar o conceito de consistência k com um exemplo que envolva alocação de tarefas em uma empresa, considerando a <strong>consistência 3</strong>.</p>
+<h4 id="cenario"><strong>Cenário</strong></h4>
+<p>Uma empresa tem <strong>3 departamentos</strong> que precisam ser alocados em <strong>3 salas</strong> para realizar tarefas. Cada sala tem um conjunto específico de recursos, e as tarefas devem ser alocadas a essas salas de forma que nenhuma tarefa seja alocada a uma sala já ocupada por outra tarefa no mesmo período de tempo.</p>
+<p>As variáveis no problema são os <strong>departamentos</strong> e as <strong>salas</strong>, e a restrição é que cada departamento deve ser alocado a uma sala única.</p>
+<h4 id="definicao-das-variaveis"><strong>Definição das Variáveis</strong>:</h4>
+<ul>
+<li><strong>Departamento 1</strong>: {Sala A, Sala B, Sala C}</li>
+<li><strong>Departamento 2</strong>: {Sala A, Sala B, Sala C}</li>
+<li><strong>Departamento 3</strong>: {Sala A, Sala B, Sala C}</li>
+</ul>
+<h4 id="restricoes_1"><strong>Restrições</strong>:</h4>
+<ol>
+<li><strong>Departamento 1</strong> não pode ser alocado na mesma sala que <strong>Departamento 2</strong>.</li>
+<li><strong>Departamento 2</strong> não pode ser alocado na mesma sala que <strong>Departamento 3</strong>.</li>
+<li><strong>Departamento 1</strong> não pode ser alocado na mesma sala que <strong>Departamento 3</strong>.</li>
+</ol>
+<p>Agora, vamos considerar que temos um conjunto de <strong>3 variáveis</strong> (os departamentos) e que desejamos verificar a <strong>consistência 3</strong> para este problema.</p>
+<h4 id="consistencia-3"><strong>Consistência 3</strong>:</h4>
+<p>A consistência 3 exige que, para qualquer conjunto de 2 variáveis (digamos <strong>Departamento 1</strong> e <strong>Departamento 2</strong>), existirá uma atribuição para a <strong>terceira variável</strong> (o <strong>Departamento 3</strong>) que seja compatível com as atribuições já feitas para as duas primeiras variáveis.</p>
+<ul>
+<li>
+<p>Se <strong>Departamento 1</strong> for alocado em <strong>Sala A</strong> e <strong>Departamento 2</strong> for alocado em <strong>Sala B</strong>, então, para que o problema seja consistente, <strong>Departamento 3</strong> deve ser alocado em <strong>Sala C</strong>. Esta alocação garante que todas as restrições sejam satisfeitas.</p>
+</li>
+<li>
+<p>Se <strong>Departamento 1</strong> for alocado em <strong>Sala B</strong> e <strong>Departamento 2</strong> for alocado em <strong>Sala C</strong>, então <strong>Departamento 3</strong> deve ser alocado em <strong>Sala A</strong>.</p>
+</li>
+</ul>
+<p>Portanto, para cada conjunto de <strong>2 variáveis</strong> já alocadas, sempre existirá uma alocação válida para o <strong>Departamento 3</strong>, o que demonstra que o problema é <strong>3-consistente</strong>.</p>
+<h3 id="consistencia-fortemente-k-consistente"><strong>Consistência Fortemente k-consistente</strong></h3>
+<p>Se a CSP for <strong>fortemente k-consistente</strong>, ela será <strong>(k-1)-consistente</strong>, <strong>(k-2)-consistente</strong>, até ser <strong>1-consistente</strong>. No exemplo acima, uma vez que a CSP seja 3-consistente, ela também seria automaticamente 2-consistente e 1-consistente, porque cada nível de consistência é garantido pela consistência do nível superior.</p>
+<h4 id="resumo-do-tempo-de-execucao"><strong>Resumo do Tempo de Execução</strong></h4>
+<p>Em termos de <strong>complexidade de tempo</strong>, a consistência k pode ser computacionalmente cara, pois envolve verificar todas as combinações de (k - 1) variáveis e calcular as combinações consistentes para a k-ésima variável. Porém, a vantagem é que, ao garantir que todas as condições de consistência estão satisfeitas, é possível reduzir significativamente o espaço de busca e, portanto, otimizar a resolução do problema CSP.</p>
+<h3 id="conclusao_3"><strong>Conclusão</strong></h3>
+<p>A <strong>consistência k</strong> é uma forma mais forte de garantir que uma CSP tenha uma solução válida, analisando conjuntos maiores de variáveis em relação às formas mais simples de consistência. Ela é particularmente útil quando o problema envolve interações complexas entre um número maior de variáveis. A consistência k permite uma verificação mais eficiente e pode simplificar a resolução do problema ao reduzir o espaço de busca, especialmente em CSPs com muitas variáveis inter-relacionadas.</p>
+<hr />
+<h3 id="consistencia-global-em-csps"><strong>Consistência Global em CSPs</strong></h3>
+<p>As <strong>condições globais</strong> são um conceito importante em problemas de satisfação de restrições (CSPs), onde um número arbitrário de variáveis pode ser envolvido em uma restrição. Ao contrário das condições unitárias, binárias ou ternárias, que envolvem um número fixo de variáveis, as condições globais podem envolver muitas variáveis ao mesmo tempo, o que traz desafios significativos para a solução de CSPs. A consistência global é uma forma de propagar essas condições e reduzir o espaço de busca de maneira eficiente, especialmente em casos em que múltiplas variáveis estão inter-relacionadas de maneira complexa.</p>
+<p>A consistência global funciona de maneira semelhante à consistência de arco e de nó, mas com um nível mais alto de complexidade devido ao número maior de variáveis envolvidas. O objetivo é garantir que as condições globais sejam mantidas, propagando informações de maneira eficiente e verificando se é possível reduzir os domínios das variáveis de forma que todas as condições sejam satisfeitas simultaneamente.</p>
+<h3 id="algoritmo-de-consistencia-global"><strong>Algoritmo de Consistência Global</strong></h3>
+<p>O algoritmo de consistência global se baseia em uma série de passos para propagação de informações e redução dos domínios das variáveis. O processo geral pode ser descrito da seguinte maneira:</p>
+<ol>
+<li>
+<p><strong>Remover variáveis com um único valor no domínio</strong>: Se uma variável tem apenas um valor possível no seu domínio, esse valor é fixado e removido dos domínios das outras variáveis.</p>
+</li>
+<li>
+<p><strong>Propagar a eliminação</strong>: Se uma variável tem um valor fixado, esse valor deve ser removido dos domínios das variáveis que estão envolvidas nas condições globais. Isso pode reduzir os domínios de outras variáveis e simplificar o problema.</p>
+</li>
+<li>
+<p><strong>Repetir o processo</strong>: O processo é repetido para todas as variáveis cujos domínios tenham sido reduzidos a um único valor.</p>
+</li>
+<li>
+<p><strong>Detectar inconsistências</strong>: Se, em qualquer momento, o domínio de uma variável se tornar vazio ou se houver mais variáveis do que valores restantes, isso indica que uma inconsistência foi detectada e que não há solução possível para o problema.</p>
+</li>
+<li>
+<p><strong>Propagação de limites</strong>: Quando há um número grande de valores em um domínio, a propagação de limites é usada para restringir os valores possíveis sem verificar todas as combinações possíveis.</p>
+</li>
+</ol>
+<h3 id="exemplo-de-condicao-global"><strong>Exemplo de Condição Global:</strong></h3>
+<p>Considerando o cenário de um <strong>agendamento de reuniões</strong> em uma empresa, onde várias salas de conferências precisam ser alocadas para diferentes reuniões. Cada reunião tem um número específico de participantes, e as salas têm capacidades limitadas. Além disso, existem condições globais que envolvem múltiplas variáveis ao mesmo tempo.</p>
+<h4 id="cenario_1"><strong>Cenário:</strong></h4>
+<ul>
+<li><strong>Salas</strong>: Sala A (capacidade 50 pessoas), Sala B (capacidade 100 pessoas), Sala C (capacidade 150 pessoas)</li>
+<li><strong>Reuniões</strong>: Reunião 1 (precisa de entre 30 e 50 pessoas), Reunião 2 (precisa de entre 50 e 100 pessoas), Reunião 3 (precisa de entre 100 e 150 pessoas)</li>
+</ul>
+<h4 id="condicional-global"><strong>Condicional Global:</strong></h4>
+<p>A condição global é que <strong>nenhuma sala pode ser ocupada por duas reuniões simultaneamente</strong>, e as <strong>salas devem ser alocadas de forma que a soma das capacidades das reuniões não ultrapasse a capacidade total das salas</strong>.</p>
+<h4 id="dominios-iniciais"><strong>Domínios Iniciais:</strong></h4>
+<ul>
+<li><strong>Reunião 1</strong>: {30, 50}</li>
+<li><strong>Reunião 2</strong>: {50, 100}</li>
+<li><strong>Reunião 3</strong>: {100, 150}</li>
+</ul>
+<h4 id="processo-de-consistencia-global"><strong>Processo de Consistência Global:</strong></h4>
+<ol>
+<li>
+<p><strong>Remover valores únicos</strong>: Se uma reunião tem uma única possibilidade (como 50 pessoas na Reunião 1 ou 100 pessoas na Reunião 2), esse valor é fixado.</p>
+</li>
+<li>
+<p><strong>Verificação da condição global</strong>: Se as reuniões não podem ser alocadas simultaneamente em salas de conferência com capacidades superiores à soma das suas participações, vamos restringir os domínios. Por exemplo, se a Reunião 1 e a Reunião 2 forem alocadas em diferentes salas, a Reunião 3 precisa ser alocada em uma sala de maior capacidade, devido à sua maior demanda.</p>
+</li>
+<li>
+<p><strong>Propagação de limites</strong>: Se, por exemplo, a Reunião 1 está alocada na Sala A com 50 participantes, e a Reunião 2 está alocada na Sala B com 100 participantes, então a Reunião 3 deve ser alocada na Sala C, pois as outras salas já estão ocupadas. Isso restringe a possibilidade de alocar a Reunião 3 na Sala B ou A.</p>
+</li>
+<li>
+<p><strong>Detecção de inconsistências</strong>: Caso as condições não possam ser satisfeitas (por exemplo, se uma reunião não puder ser alocada a nenhuma sala devido a limitações de capacidade), uma inconsistência será detectada, e a solução será considerada inviável.</p>
+</li>
+</ol>
+<h4 id="resultado"><strong>Resultado:</strong></h4>
+<p>Após a aplicação da consistência global, as variáveis (reuniões) terão domínios de valores reduzidos e restringidos de forma a garantir que todas as condições sejam atendidas simultaneamente. Caso contrário, o algoritmo detectará uma inconsistência e ajustará os domínios para tentar encontrar uma solução viável.</p>
+<h3 id="resumo_1"><strong>Resumo</strong></h3>
+<p>A <strong>consistência global</strong> é uma abordagem importante para lidar com problemas complexos de CSPs que envolvem múltiplas variáveis e condições globais. Ela visa garantir que todas as condições sejam satisfeitas simultaneamente, propagando informações e restringindo os domínios das variáveis. Esse tipo de consistência é essencial para resolver problemas mais desafiadores, como alocação de recursos, planejamento e agendamento.</p>
+<h3 id="referencias"><strong>Referências</strong></h3>
+<ol>
+<li>Russell, S., &amp; Norvig, P. (2021). <strong>Artificial Intelligence: A Modern Approach</strong> (4th Edition). Pearson.  </li>
+<li>Dechter, R. (2003). <strong>Constraint Processing</strong>. Morgan Kaufmann.  </li>
+<li>Apt, K. R. (2003). <strong>Principles of Constraint Programming</strong>. Cambridge University Press.  </li>
+<li>Mackworth, A. K. (1977). "Consistency in Networks of Relations". <em>Artificial Intelligence</em>.  </li>
+<li>Rossi, F., Van Beek, P., &amp; Walsh, T. (2006). <strong>Handbook of Constraint Programming</strong>. Elsevier.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
