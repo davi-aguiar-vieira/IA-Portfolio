@@ -296,8 +296,8 @@ Entender os tipos de condições e como aplicá-las em CSPs é crucial para reso
 
 ---
 
-## **Consistência em CSPs 
-### Consistência de Nós**
+## **Consistência em CSPs** 
+### **Consistência de Nós**
 
 A consistência de nós é o nível mais básico de consistência aplicado em problemas de satisfação de condições (CSPs). É um conceito que ajuda a simplificar o espaço de busca inicial, garantindo que cada variável seja compatível com suas condições unitárias antes de iniciar a resolução do problema. Isso é particularmente importante para reduzir os valores possíveis no domínio das variáveis, eliminando atribuições que violam as restrições básicas.
 
@@ -474,7 +474,7 @@ Neste caso, a consistência de arco não reduz o número de valores nos domínio
 
 O algoritmo **AC-3 (Arc-Consistency 3)** é um dos métodos mais comuns para verificar a consistência de arco. Ele trabalha de forma iterativa, verificando se todas as restrições binárias são satisfeitas e ajustando os domínios das variáveis conforme necessário.
 
-Em nosso exemplo, o algoritmo AC-3 aplicaria as verificações de consistência de arco para as variáveis **A** e **B** de acordo com a restrição **A ≠ B**. O algoritmo garantiria que os domínios de **A** e **B** permanecessem consistentes, sem a necessidade de fazer ajustes, pois o espaço de busca já está em conformidade com as restrições.
+O algoritmo AC-3 aplicaria as verificações de consistência de arco para as variáveis **A** e **B** de acordo com a restrição **A ≠ B**. O algoritmo garantiria que os domínios de **A** e **B** permanecessem consistentes, sem a necessidade de fazer ajustes, pois o espaço de busca já está em conformidade com as restrições.
 
 
 ### **Exemplo em Código Python**
