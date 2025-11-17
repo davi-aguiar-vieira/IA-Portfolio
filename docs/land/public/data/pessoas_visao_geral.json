@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "atualizado_em": "2025-11-17T01:31:34.200203Z"
+  },
+  "kpis": {
+    "total_servidores": 1138,
+    "servidores_ativos_permanentes": 303,
+    "aposentados": 703,
+    "estagiarios": 15,
+    "terceirizados": 623
+  },
+  "genero": {
+    "masculino_percent": 74.9,
+    "feminino_percent": 25.1
+  },
+  "raca_cor": [
+    {
+      "nome_cor": "BRANCA",
+      "valor": 250
+    },
+    {
+      "nome_cor": "PARDA",
+      "valor": 72
+    },
+    {
+      "nome_cor": "PRETA",
+      "valor": 25
+    },
+    {
+      "nome_cor": "AMARELA",
+      "valor": 6
+    },
+    {
+      "nome_cor": "INDIGENA",
+      "valor": 2
+    },
+    {
+      "nome_cor": "NAO INFORMADO",
+      "valor": 1
+    },
+    {
+      "nome_cor": "NÃO DECLARADA",
+      "valor": 0
+    }
+  ],
+  "situacao_funcional": [
+    {
+      "label": "Aposentado",
+      "valor": 703
+    },
+    {
+      "label": "Ativo permanente",
+      "valor": 303
+    },
+    {
+      "label": "Cedido",
+      "valor": 50
+    },
+    {
+      "label": "Requisitado",
+      "valor": 41
+    },
+    {
+      "label": "Estagiário",
+      "valor": 15
+    },
+    {
+      "label": "Requisitado",
+      "valor": 12
+    },
+    {
+      "label": "Pensionista",
+      "valor": 7
+    },
+    {
+      "label": "Requisitado",
+      "valor": 4
+    },
+    {
+      "label": "Cargo comissionado",
+      "valor": 1
+    }
+  ]
+}
