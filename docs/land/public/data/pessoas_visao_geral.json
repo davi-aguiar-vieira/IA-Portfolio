@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizado_em": "2025-11-18T12:37:52.672308Z"
+    "atualizado_em": "2025-11-22T23:41:19.876140Z"
   },
   "kpis": {
     "total_servidores": 1138,
@@ -43,6 +43,143 @@
       "valor": 0
     }
   ],
+  "mapa_uf": {
+    "AC": {
+      "nome": "ACRE",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "AL": {
+      "nome": "ALAGOAS",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "AM": {
+      "nome": "AMAZONAS",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "AP": {
+      "nome": "AMAPÁ",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "BA": {
+      "nome": "BAHIA",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "CE": {
+      "nome": "CEARÁ",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "DF": {
+      "nome": "DISTRITO FEDERAL",
+      "valor": 1123,
+      "percentual": "99%"
+    },
+    "ES": {
+      "nome": "ESPÍRITO SANTO",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "GO": {
+      "nome": "GOIÁS",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "MA": {
+      "nome": "MARANHÃO",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "MG": {
+      "nome": "MINAS GERAIS",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "MS": {
+      "nome": "MATO GROSSO DO SUL",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "MT": {
+      "nome": "MATO GROSSO",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "PA": {
+      "nome": "PARÁ",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "PB": {
+      "nome": "PARAÍBA",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "PE": {
+      "nome": "PERNAMBUCO",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "PI": {
+      "nome": "PIAUÍ",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "PR": {
+      "nome": "PARANÁ",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "RJ": {
+      "nome": "RIO DE JANEIRO",
+      "valor": 13,
+      "percentual": "1%"
+    },
+    "RN": {
+      "nome": "RIO GRANDE DO NORTE",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "RO": {
+      "nome": "RONDÔNIA",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "RR": {
+      "nome": "RORAIMA",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "RS": {
+      "nome": "RIO GRANDE DO SUL",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "SC": {
+      "nome": "SANTA CATARINA",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "SE": {
+      "nome": "SERGIPE",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "SP": {
+      "nome": "SÃO PAULO",
+      "valor": 0,
+      "percentual": "0%"
+    },
+    "TO": {
+      "nome": "TOCANTINS",
+      "valor": 0,
+      "percentual": "0%"
+    }
+  },
   "situacao_funcional": [
     {
       "label": "Aposentado",
@@ -79,6 +216,528 @@
     {
       "label": "Cargo comissionado",
       "valor": 1
+    }
+  ],
+  "tabela_servidores": [
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 192
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 186
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 86
+    },
+    {
+      "cargo": "SECRETARIO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 72
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 55
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 54
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 45
+    },
+    {
+      "cargo": "ASSESSOR ESPECIALIZADO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 30
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 27
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 25
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 24
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 22
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 20
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 19
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 19
+    },
+    {
+      "cargo": "MOTORISTA",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 15
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 14
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 12
+    },
+    {
+      "cargo": "TEC DE PLANEJ E PESQUISA-QUADRO SUPLEMEN",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 12
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 9
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 9
+    },
+    {
+      "cargo": "ASSESSOR ESPECIALIZADO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 8
+    },
+    {
+      "cargo": "CUX DE MANUTENCAO E SERV  OPERACIONAIS",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 8
+    },
+    {
+      "cargo": "TEC DE PLANEJ E PESQUISA-QUADRO SUPLEMEN",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 8
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 7
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 7
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 7
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 7
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 5
+    },
+    {
+      "cargo": "ASSESSOR ESPECIALIZADO",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 4
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 4
+    },
+    {
+      "cargo": "TECNICO ESPECIALIZADO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 4
+    },
+    {
+      "cargo": "TEC DE PLANEJ E PESQUISA-QUADRO SUPLEMEN",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 3
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 3
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Masculino",
+      "situacao": "INSTITUIDOR PENSAO",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 3
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 2
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "MOTORISTA",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "SECRETARIO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 2
+    },
+    {
+      "cargo": "TECNICO ESPECIALIZADO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 2
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "ANALISTA DE SISTEMAS",
+      "genero": "Masculino",
+      "situacao": "INSTITUIDOR PENSAO",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "ASSESSOR ESPECIALIZADO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "ASSESSOR ESPECIALIZADO",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR ADMINISTRATIVO",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR DE SERVICOS GERAIS",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Feminino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "AUXILIAR TECNICO",
+      "genero": "Masculino",
+      "situacao": "INSTITUIDOR PENSAO",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "CUX DE MANUTENCAO E SERV  OPERACIONAIS",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "MEDICO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "MEDICO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "MOTORISTA",
+      "genero": "Masculino",
+      "situacao": "INSTITUIDOR PENSAO",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "SECRETARIO",
+      "genero": "Feminino",
+      "situacao": "Aposentado",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "SECRETARIO",
+      "genero": "Feminino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Masculino",
+      "situacao": "Ativo em outro órgão",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
+    },
+    {
+      "cargo": "TECNICO DE DESENVOL E ADMINISTRACAO",
+      "genero": "Masculino",
+      "situacao": "Aposentado",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "TECNICO DE PLANEJAMENTO E PESQUISA",
+      "genero": "Masculino",
+      "situacao": "Ativo Permanente",
+      "cidade": "Rio De Janeiro",
+      "estado": "RJ",
+      "total": 1
+    },
+    {
+      "cargo": "TECNICO ESPECIALIZADO",
+      "genero": "Masculino",
+      "situacao": "INSTITUIDOR PENSAO",
+      "cidade": "Brasilia",
+      "estado": "DF",
+      "total": 1
     }
   ]
 }
