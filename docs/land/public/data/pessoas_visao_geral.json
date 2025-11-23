@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizado_em": "2025-11-23T02:26:14.590652Z"
+    "atualizado_em": "2025-11-23T04:08:48.104828Z"
   },
   "kpis": {
     "total_servidores": 1138,
@@ -182,39 +182,39 @@
   },
   "situacao_funcional": [
     {
-      "label": "Aposentado",
+      "label": "APOSENTADO",
       "valor": 703
     },
     {
-      "label": "Ativo permanente",
+      "label": "ATIVO PERMANENTE",
       "valor": 303
     },
     {
-      "label": "Cedido",
+      "label": "ATIVO EM OUTRO ORGAO",
       "valor": 50
     },
     {
-      "label": "Requisitado",
+      "label": "EXERC DESCENT CARREI",
       "valor": 41
     },
     {
-      "label": "Estagiário",
+      "label": "ESTAGIARIO SIGEPE",
       "valor": 15
     },
     {
-      "label": "Requisitado",
+      "label": "CEDIDO/REQUISITADO",
       "valor": 12
     },
     {
-      "label": "Pensionista",
+      "label": "INSTITUIDOR PENSAO",
       "valor": 7
     },
     {
-      "label": "Requisitado",
+      "label": "EXERC. 7  ART93 8112",
       "valor": 4
     },
     {
-      "label": "Cargo comissionado",
+      "label": "NOMEADO CARGO COMIS.",
       "valor": 1
     }
   ],
